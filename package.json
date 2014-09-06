@@ -1,0 +1,29 @@
+{
+  "name": "co-node-read",
+  "version": "0.0.1",
+  "description": "co wrapper for node-read",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/littlehaker/co-node-read.git"
+  },
+  "keywords": [
+    "readability",
+    "node-read",
+    "co"
+  ],
+  "author": "Uno Young (littlehaker@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/littlehaker/co-node-read/issues"
+  },
+  "homepage": "https://github.com/littlehaker/co-node-read",
+  "dependencies": {
+    "co": "^3.1.0",
+    "node-read": "^0.1.4",
+    "q": "^1.0.1"
+  }
+}

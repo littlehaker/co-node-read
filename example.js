@@ -1,22 +1,3 @@
-co-node-read
-============
-
-[co](https://github.com/visionmedia/co) wrapper for [node-read](https://github.com/bndr/node-read)
-
-
-## Usage
-
-`read(html [, options])`
-
-Where
-
-  * **html** url or html code.
-  * **options** is an optional options object
-
-
-## Example
-
-```javascript
 var co = require('co');
 
 var read = require('./index');
@@ -38,8 +19,3 @@ co(function * () {
   console.log(article.dom);
 
 })();
-```
-
-## LISENCE
-
-MIT
